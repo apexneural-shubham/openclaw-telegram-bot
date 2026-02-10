@@ -1,0 +1,43 @@
+.approvals-view {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+}
+
+.approvals-header {
+  flex-shrink: 0;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--border);
+}
+
+.approvals-title {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.approvals-subtitle {
+  margin: 4px 0 0;
+  font-size: 0.8rem;
+  color: var(--tg-theme-hint-color);
+}
+
+.approvals-stack-wrap {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 16px;
+  min-height: 0;
+}
+
+.approvals-empty {
+  text-align: center;
+  color: var(--tg-theme-hint-color);
+}
+
+.approvals-empty-hint {
+  margin-top: 8px;
+  font-size: 0.85rem;
+}
